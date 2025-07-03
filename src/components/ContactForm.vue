@@ -119,7 +119,7 @@ export default {
       );
       if (!reply) {
         // stay on the page if
-        // user clicks 'Cancel'
+        // user clicks 'Cancel
         return false;
       } else this.$router.push({ name: "contactbook" });
     },
